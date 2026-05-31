@@ -19,3 +19,4 @@ ui:
 # Redis configuration
 # redis:
 #   url: ${REDIS_URL}
+
