@@ -3,12 +3,14 @@ use_default_settings: true
 general:
   debug: true
 search:
+  default_locale: "en-US"
   formats:
     - html
     - json
     - csv
 server:
   # base_url is defined in the SEARXNG_BASE_URL environment variable
+  base_url: "https://abudi.up.railway.app/"
   secret_key: "my-custom-secret-key-from-env"
   limiter: false 
   image_proxy: true
