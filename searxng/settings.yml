@@ -3,7 +3,7 @@ use_default_settings: true
 general:
   debug: true
 search:
-  default_locale: "en-US"
+  default_language: "en-US"
   formats:
     - html
     - json
@@ -19,4 +19,3 @@ ui:
 # Redis configuration
 # redis:
 #   url: ${REDIS_URL}
-
